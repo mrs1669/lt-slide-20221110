@@ -11,17 +11,21 @@ import SwiftUI
 struct TitleSlide: Slide {
     var body: some View {
         VStack(alignment: .leading, spacing: 32) {
-            Text("App Store Review Guidelineの更新について")
+            Text("App Store ")
+                .foregroundColor(.pink)
+                .font(.custom("SeuratProN-M", size: 120)) +
+            Text("Review Guidelineの更新について")
                 .fontWeight(.heavy)
-                .font(.system(size: 120))
-            Text("村石 拓海 [Takumi Muraishi]")
+                .font(.custom("SeuratProN-M", size: 120))
+            Text("村石 拓海 (Takumi Muraishi)")
                 .fontWeight(.semibold)
-                .font(.system(size: 48))
+                .font(.custom("SeuratProN-M", size: 54))
+                .padding(.top, 30)
         }
-        .padding()
+        .padding(150)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
         .foregroundColor(.white)
-        .background(Color.accentColor)
+        .background(.black)
     }
 
     var shouldHideIndex: Bool { true }
