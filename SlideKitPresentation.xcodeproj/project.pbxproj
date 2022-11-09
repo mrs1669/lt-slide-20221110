@@ -23,6 +23,7 @@
 		4F840CCB291B72FF00088230 /* PhasedSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhasedSlide.swift; sourceTree = "<group>"; };
 		4F840CCD291B74AE00088230 /* TitleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSlide.swift; sourceTree = "<group>"; };
 		4F840CD1291B7C6D00088230 /* FOT-SeuratProN-M.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FOT-SeuratProN-M.otf"; sourceTree = "<group>"; };
+		4F840CD5291B85A200088230 /* ImageAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssets.xcassets; sourceTree = "<group>"; };
 		50E04FE20B032EA6EC89A66C /* SampleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSlide.swift; sourceTree = "<group>"; };
 		821A485839443C9B29C6B1B6 /* SlideKitPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideKitPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0510A87B05B5EC49E19A2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 				D43BFD510AC691BFAB18FE35 /* SlideConfiguration.swift */,
 				1E672EA3230D955E0C836D3A /* SlideKitPresentation.entitlements */,
 				390C1B130AE523A060857B44 /* SlideKitPresentationApp.swift */,
+				4F840CD5291B85A200088230 /* ImageAssets.xcassets */,
 				4F840CD0291B7C3100088230 /* Font */,
 				440F1570CB9FA2CDE470D330 /* Slides */,
 			);

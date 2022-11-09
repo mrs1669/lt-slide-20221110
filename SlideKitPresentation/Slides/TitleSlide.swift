@@ -15,12 +15,12 @@ struct TitleSlide: Slide {
                 .foregroundColor(.pink)
                 .font(.custom("SeuratProN-M", size: 120)) +
             Text("Review Guidelineの更新について")
-                .fontWeight(.heavy)
                 .font(.custom("SeuratProN-M", size: 120))
             Text("村石 拓海 (Takumi Muraishi)")
-                .fontWeight(.semibold)
                 .font(.custom("SeuratProN-M", size: 54))
                 .padding(.top, 30)
+            Text("GitHub: mrs1669")
+                .font(.custom("SeuratProN-M", size: 36))
         }
         .padding(150)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
